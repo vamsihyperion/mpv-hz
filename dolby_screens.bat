@@ -1,0 +1,1 @@
+"%~dp0mpv"  --vo=gpu-next --screenshot-high-bit-depth=no --autofit=100%%x480 --screenshot-png-compression=6 --no-config --no-audio --screenshot-format=png --screenshot-template=%%x%%f_%%wH_%%wM_%%wS --script="%~dp0takeSsSequence.js" %1

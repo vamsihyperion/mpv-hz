@@ -1,0 +1,18 @@
+# Sensitive authentication & session data
+cookies.txt
+*.cookie
+
+# Logs & crash dumps
+*.log
+mpv.log
+
+# mpv runtime state & cache
+portable_config/watch_later/
+portable_config/cache/
+watch_later/
+cache/
+
+# OS and editor files
+Thumbs.db
+.DS_Store
+*.tmp

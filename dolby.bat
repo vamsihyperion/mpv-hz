@@ -1,0 +1,1 @@
+"%~dp0mpv"  --vo=gpu-next %1
