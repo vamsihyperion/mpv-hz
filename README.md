@@ -70,7 +70,8 @@ Quickly toggle industry-leading spatial and neural upscalers via hotkeys:
 
 ### 4. Binaural 3D Surround Audio (SOFALizer / HRTF)
 - **True Headphone Spatial Audio**: Transforms multichannel audio (5.1, 7.1, Dolby Atmos soundtracks) into an immersive 3D binaural soundstage using Head-Related Transfer Functions (`D1_96K_24bit_512tap_FIR_SOFA.sofa`).
-- **Surround Auto-Detection**: Activates conditionally when more than 2 audio channels are present.
+- **Default ON**: Enabled automatically by default whenever multichannel/surround sound (`>2` channels) is detected.
+- **Instant Toggle (<kbd>U</kbd>)**: Press <kbd>U</kbd> at any time during playback to toggle HRTF Spatial Audio **ON** or **OFF** on the fly.
 - **Dolby Helpers**:
   - `dolby.bat` - Launch files directly in high-precision `gpu-next` surround mode.
   - `dolby_screens.bat` - Automatically generate an 8-point timestamped screenshot sequence of the video via `takeSsSequence.js`.
@@ -150,6 +151,7 @@ No installation required. Run `mpv.exe` directly or drag-and-drop any media file
 | Key | Action |
 | :--- | :--- |
 | <kbd>Mouse Wheel</kbd> / <kbd>"</kbd> / <kbd>'</kbd> | Volume Up / Down |
+| <kbd>U</kbd> | Toggle HRTF 3D Spatial Audio ON / OFF (Default: ON) |
 | <kbd>M</kbd> | Toggle Mute |
 | <kbd>K</kbd> | Cycle Audio Track |
 | <kbd>J</kbd> | Cycle Subtitle Track |

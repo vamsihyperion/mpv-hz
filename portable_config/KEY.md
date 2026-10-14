@@ -142,7 +142,7 @@
 | <kbd>R</kbd> | Rotate Video |
 | <kbd>T</kbd> | Enable / Disable Ontop |
 | <kbd>Y</kbd> | -- |
-| <kbd>U</kbd> | -- |
+| <kbd>U</kbd> | Toggle HRTF 3D Spatial Audio (SOFA) ON/OFF (Default: ON) |
 | <kbd>I</kbd> | Show the Progress |
 | <kbd>O</kbd> | Change OSD Visible to Always / Auto |
 | <kbd>CTRL</kbd> + <kbd>O</kbd> | Open File |
